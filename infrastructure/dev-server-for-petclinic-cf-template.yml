@@ -1,4 +1,5 @@
-AWSTemplateFormatVersion: 2010-09-09Description: >
+AWSTemplateFormatVersion: 2010-09-09
+Description: >
   This cloudformation template prepares development environment for petclinic microservices app
   User needs to select appropiate key name when launching the template.Parameters:
   KeyPairName:
