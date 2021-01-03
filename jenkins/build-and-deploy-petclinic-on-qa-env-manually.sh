@@ -1,7 +1,7 @@
 PATH="$PATH:/usr/local/bin"
 APP_NAME="petclinic"
 APP_REPO_NAME="clarusway-repo/petclinic-app-qa" # değişecek
-APP_STACK_NAME="Memo-petclinic-App-QA-2" # değişecek
+APP_STACK_NAME="Memo-petclinic-App-QA-3" # değişecek
 CFN_KEYPAIR="memo-petclinic-qa.key" # değişecek
 AWS_ACCOUNT_ID=$(aws sts get-caller-identity --query Account --output text)
 AWS_REGION="us-east-1"
